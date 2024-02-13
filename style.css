@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 20px;
+    height: 10vh;
+}
+
+nav h3 {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+nav div a {
+    margin: 0 5px;
+    font-size: 18px;
+    color: #e5e7e8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding-bottom: 10vh;
+}
+
+header .left * {
+    margin: 10px;
+}
+
+header .left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FaF8;
+}
+
+header div {
+    flex-basis: 32vw;
+}
+
+header .left button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color:white;
+}
+
+header .left {
+    flex-shrink: 1;
+}
+
+header .right img {
+    width: 25rem;
+    min-width: 10rem;
+}
+
+nav, header, footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+section h2 {
+    font-weight: 800;
+    font-size: 26px;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}
+.frame {
+    height: 20vh;
+    flex-basis: 12vw;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > * {
+    flex: 1 1 50vh;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7e8;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote q {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 350px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_container {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 40%;
+    align-items: center;
+}
+
+.cta_container button {
+    background-color: inherit;
+    color: inherit;
+    border-radius: 5px;
+    padding: 0.5rem 2rem; 
+    border-color: white;
+}
+
+footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
